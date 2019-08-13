@@ -15,11 +15,14 @@ public class My_ArrayList {
     }
 
     public void add(Object oo){             //add elements
-        if(size==arr.length){
+        /*if(size==arr.length){
             Object[] arr2 = grow(arr.length+(arr.length>>1)); //increase 50%,
             arr=arr2;
         }
-        arr[size++]=oo;
+        arr[size++]=oo;*/
+        this.insert(oo,size);
+
+
     }
 
     public void insert(Object oo,int index){
