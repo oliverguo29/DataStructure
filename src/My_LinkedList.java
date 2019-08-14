@@ -20,11 +20,11 @@ public class My_LinkedList {
 
 
 
-    private Node head=new Node();      //dummy node 防止空指针，需要给初始的值
+    private Node head;      //dummy node
     private int size=0;
 
     public My_LinkedList(){
-        Node head = new Node();
+         this.head = new Node();
     }
 
     public void insert(int index,Object o){
