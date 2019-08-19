@@ -15,7 +15,7 @@ public interface BinaryTree {
      int getHeight();
 
      //find specific value
-     Node findKey();
+     Node findKey(int value);
 
      //preOrederTraverse
      void preOrederTraverse();
