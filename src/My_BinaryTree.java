@@ -1,5 +1,8 @@
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class My_BinaryTree implements BinaryTree {
+
     private Node root;
 
     public My_BinaryTree() {
@@ -49,8 +52,27 @@ public class My_BinaryTree implements BinaryTree {
     }
 
     @Override
-    public Node findKey() {
-        return null;
+    public Node findKey(int value) {
+        return this.findKey(value,root);
+    }
+
+    private Node findKey(int value,Node root){
+        if(root==null){
+            return  null;
+        }else if(root!=null&&root.getValue().equals(value)){
+            return root;
+        }else{
+            Node n1=this.findKey(value,root.left);
+            Node n2=this.findKey(value,root.right);
+
+            if(n1!=null&&n1.getValue().equals(value)){
+                 return n1;
+            }else if(n2!=null&&n2.getValue().equals(value)){
+                return n2;
+            }else {
+                return null;
+            }
+        }
     }
 
     @Override
@@ -124,7 +146,24 @@ public class My_BinaryTree implements BinaryTree {
 
     @Override
     public void levelOrder() {
-
+        if(root==null){
+           return;
+        }
+        Queue<Node> queue = new LinkedList<Node>();
+        queue.add(root);
+        while (queue.size()!=0){
+            int len=queue.size();
+            for(int i=0;i<len;i++) {
+                Node tmp = queue.poll();
+                System.out.print(tmp.getValue()+" ");
+                if (tmp.left != null) {
+                    queue.add(tmp.left);
+                }
+                if (tmp.right != null) {
+                    queue.add(tmp.right);
+                }
+            }
+        }
     }
 
 
