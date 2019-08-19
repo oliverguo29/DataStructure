@@ -39,6 +39,11 @@ public class TestTree {
         System.out.println(btree.getHeight());
     //size
         System.out.println(btree.size());
+    //find 7
+        System.out.println(btree.findKey(1));
+    //find by level
+        System.out.println();
+        btree.levelOrder();
     }
 
 }
