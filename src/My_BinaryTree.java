@@ -1,3 +1,4 @@
+import java.util.Deque;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -128,15 +129,49 @@ public class My_BinaryTree implements BinaryTree {
 
         }
     }
-
+    /**
+     * 先根遍历，拿到一个节点的指针，先判断是否为空，不为空就先访问该结点，然后直接进栈，
+     * 接着遍历左子树；为空则要从栈中弹出一个节点来，
+     * 这个时候弹出的结点就是其父亲，然后访问其父亲的右子树，直到当前节点为空且栈为空时，算法结束.
+     */
     @Override
     public void preOrederByStack() {
+        Deque<Node> stack = new LinkedList<Node>();
+        Node current =root;
+
+        while (current!=null||!stack.isEmpty()){
+            if(current!=null){
+                System.out.print(current.getValue()+" ");
+                stack.push(current);
+                current=current.left;
+            }else {
+                 current = stack.pop();
+                 current=current.right;
+
+            }
+        }
+
+
+
 
     }
 
     @Override
-    public void inOrederByStack() {
+    public void inOrederByStack() {         //left root right
+        Deque<Node> stack = new LinkedList<Node>();
+        Node current =root;
 
+        while (!stack.isEmpty()||current!=null){
+            while (current!=null) {
+                stack.push(current);
+                current = current.left;
+            }
+            if(!stack.isEmpty()){
+                current = stack.pop();
+                System.out.print(current.getValue()+" ");
+                current=current.right;
+            }
+        }
     }
 
     @Override

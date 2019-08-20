@@ -44,6 +44,19 @@ public class TestTree {
     //find by level
         System.out.println();
         btree.levelOrder();
+        System.out.println();
+    //inorder
+        System.out.println("inorder");
+        btree.inOrederByStack();
+        System.out.println();
+    //preorder
+        System.out.println("pre-order");
+        btree.preOrederByStack();
+        System.out.println();
+    //postorder
+        System.out.println("post-order");
+        btree.postOrederByStack();
+        System.out.println();
     }
 
 }
