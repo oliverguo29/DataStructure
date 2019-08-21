@@ -1,9 +1,11 @@
+package dataStructure;
+
 public class TestList {
 
 
     public static void main(String[] args) {
 
-        //My_ArrayList mal2 = new My_ArrayList();
+        //dataStructure.My_ArrayList mal2 = new dataStructure.My_ArrayList();
         My_LinkedList mal2= new My_LinkedList();
 
 

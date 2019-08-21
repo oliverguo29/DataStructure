@@ -1,3 +1,5 @@
+package dataStructure;
+
 import java.util.Deque;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -209,9 +211,9 @@ public class My_BinaryTree implements BinaryTree {
  *   //1.output root
  *             System.out.print(root.getValue()+" ");
  *             //2.preOrederTraverse(left)
- *             My_BinaryTree btree_left= new My_BinaryTree(root.left);
+ *             dataStructure.My_BinaryTree btree_left= new dataStructure.My_BinaryTree(root.left);
  *             btree_left.preOrederTraverse();
  *             //3.preOrederTraverse(right)
- *             My_BinaryTree btree_right= new My_BinaryTree(root.right);
+ *             dataStructure.My_BinaryTree btree_right= new dataStructure.My_BinaryTree(root.right);
  *             btree_right.preOrederTraverse();
  */

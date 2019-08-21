@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8da313c9-d620-44ba-95ac-e8fe5f42c9a1" name="Default Changelist" comment="BinaryTree with traverse">
+    <list default="true" id="8da313c9-d620-44ba-95ac-e8fe5f42c9a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/My_BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/My_BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,12 +19,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/My_BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
+            <state relative-caret-position="650">
               <caret line="135" column="7" selection-start-line="135" selection-start-column="7" selection-end-line="135" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3317#3323#0" expanded="true" />
-                <element signature="e#3834#3840#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -35,7 +31,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
+            <state relative-caret-position="1254">
               <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
             </state>
           </provider>
@@ -78,8 +74,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="798" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -87,8 +84,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,14 +127,14 @@
   </component>
   <component name="RunManager" selected="Application.TestTree">
     <configuration name="TestList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestList" />
+      <option name="MAIN_CLASS_NAME" value="dataStructure.TestList" />
       <module name="DataStructure" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="TestTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestTree" />
+      <option name="MAIN_CLASS_NAME" value="dataStructure.TestTree" />
       <module name="DataStructure" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,7 +162,8 @@
       <workItem from="1565870295208" duration="7089000" />
       <workItem from="1566216552344" duration="235000" />
       <workItem from="1566236022192" duration="2372000" />
-      <workItem from="1566331580675" duration="2589000" />
+      <workItem from="1566331580675" duration="2962000" />
+      <workItem from="1566383044119" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary="arrayList">
       <created>1565727436631</created>
@@ -223,23 +221,29 @@
       <option name="project" value="LOCAL" />
       <updated>1566239339751</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="BinaryTree with stack">
+      <created>1566334441846</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1566334441846</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21555000" />
+    <option name="totallyTimeSpent" value="22236000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28313252" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28313252" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -266,7 +270,8 @@
     <MESSAGE value="LinkedList" />
     <MESSAGE value="search by level" />
     <MESSAGE value="BinaryTree with traverse" />
-    <option name="LAST_COMMIT_MESSAGE" value="BinaryTree with traverse" />
+    <MESSAGE value="BinaryTree with stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="BinaryTree with stack" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/My_ArrayList.java">
@@ -308,22 +313,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/My_BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
+        <state relative-caret-position="650">
           <caret line="135" column="7" selection-start-line="135" selection-start-column="7" selection-end-line="135" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3317#3323#0" expanded="true" />
             <element signature="e#3834#3840#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
         </state>
       </provider>
     </entry>

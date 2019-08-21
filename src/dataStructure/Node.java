@@ -1,3 +1,5 @@
+package dataStructure;
+
 public  class Node {
 
     /**
@@ -27,7 +29,7 @@ public  class Node {
 
     @Override
     public String toString() {
-        return "Node{" +
+        return "dataStructure.Node{" +
                 "value=" + value +
                 ", left=" + left +
                 ", right=" + right +

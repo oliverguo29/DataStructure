@@ -1,3 +1,5 @@
+package dataStructure;
+
 public class My_LinkedList {
 
     class Node{                     //node in LinkedList
